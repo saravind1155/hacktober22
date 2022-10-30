@@ -1,11 +1,12 @@
 #include <stdio.h>
-
+#include<stdlib.h>
 void main(){
-    int n,x1,x2,y1,y2,p;
-    scanf("%d",&n);
-    int arr[n];
+    int n,x1,x2,y1,y2,p,arr[n]; //intake of elements
     
-        for (int j = 0; j < n; j++)
+    scanf("%d",&n);
+    
+    
+     for (int j = 0; j < n; j++)
         {
            
             scanf("%d",&x1);
@@ -15,7 +16,7 @@ void main(){
             scanf("%d",&x2);
             
             scanf("%d",&y2);
-            p=(x2/x1)+(y2/y1);
+            p=(x2/x1)+(y2/y1); //operation
             arr[j]=p;
         }
         
